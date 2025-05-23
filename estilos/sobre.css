@@ -32,7 +32,7 @@ body{
 }
 #html:hover{
     transform: scale(1.07);
-    box-shadow: 5px 5px 5px black;
+    
 }
 #css{
     transition: 200ms ease-in-out;
@@ -40,7 +40,7 @@ body{
 }
 #css:hover{
     transform: scale(1.07);
-    box-shadow: 5px 5px 5px black;
+    
 }
 #js{
     margin: 0px 0px 0px 20px;
@@ -49,7 +49,7 @@ body{
 }
 #js:hover{
     transform: scale(1.07);
-    box-shadow: 5px 5px 5px black;
+    
 }
 #fer{
     margin: 20px 0px 0px 0px;
