@@ -1,4 +1,5 @@
 * {
+    font-family: "Poppins", sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,6 +10,9 @@
 body{
     background-color: rgb(34, 40, 49);
     color: rgb(238, 238, 238);
+}
+#para1{
+    margin-left: 25px;
 }
 .cima {
     display: flex; 
@@ -32,9 +36,23 @@ body{
 }
 
 .gen {
-    color: white;
-    margin: 0;
-    font-weight: 900;
+    background: linear-gradient(45deg, #00b3ff, #045888, #0383f4, #1603f1, #00ffd5, #07294c, #00ffff, #161754, #5900ff);
+    background-size: 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: glowing 20s linear infinite;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 button{
     padding: 6px;
@@ -45,7 +63,7 @@ button{
 }
 button:hover{
     transform: scale(1.07);
-    box-shadow: 0px 0px 8px black;
+    box-shadow: 0px 0px 8px rgb(131, 153, 173);
 }
 
 
