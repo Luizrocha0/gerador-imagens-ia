@@ -1,0 +1,18 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color:rgb(34, 40, 49) ;
+    color: rgb(238, 238, 238);
+    margin: 20px 80px 0px 80px;
+}
+.tab{
+    border-collapse: collapse;
+}
+.borda{
+    border: solid 4px;
+    border-color: aqua;
+}
+#teste{
+    padding: 13px;
+}
