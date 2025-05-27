@@ -61,13 +61,29 @@ body{
     list-style: none;
     margin-top: 10px;
 }
-.formulario{
+.formulario {
     display: flex;
     flex-direction: column;
-    background-color: rgb(57, 62, 70);
     padding: 20px 30px;
     margin-top: 11%;
     border-radius: 10px;
+    background: linear-gradient(45deg, #00b3ff, #045888, #0383f4, #1603f1, #00ffd5, #07294c, #00ffff, #161754, #5900ff);
+    background-size: 400% 400%;
+    animation: glowing 20s linear infinite;
+    transition: opacity 0.3s ease-in-out;
+    box-shadow: 0 0 20px rgba(0, 179, 255, 0.5);
+}
+
+@keyframes glowing {
+0% {
+    background-position: 0% 50%;
+}
+50% {
+    background-position: 100% 50%;
+}
+100% {
+    background-position: 0% 50%;
+}
 }
 .men{
     padding-bottom: 60px;
