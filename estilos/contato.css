@@ -10,9 +10,6 @@
 body{
     background-color: rgb(34, 40, 49);
     color: rgb(238, 238, 238);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 .cima {
     display: flex; 
@@ -53,14 +50,43 @@ body{
         background-position: 0% 50%;
     }
 }
-.tab{
-    border-collapse: collapse;
-    margin: 20px 20px 0px 20px;
+.div-contato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
 }
-.borda{
-    border: solid 4px;
-    border-color: aqua;
+.list{
+    list-style: none;
+    margin-top: 10px;
 }
-#teste{
-    padding: 13px;
+.formulario{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(57, 62, 70);
+    padding: 20px 30px;
+    margin-top: 11%;
+    border-radius: 10px;
+}
+.men{
+    padding-bottom: 60px;
+    margin-top: 10px;
+    border-radius: 7px;
+    border: none;
+    transition: 200ms ease-in-out;
+}
+.men:focus{
+    transform: scale(1.08);
+    background-color: aqua;
+}
+.escrever{
+    margin-top: 10px;
+    border-radius: 7px;
+    border: none;
+    transition: 200ms ease-in-out;
+}
+.escrever:focus{
+    transform: scale(1.08);
+    background-color: aqua;
 }
